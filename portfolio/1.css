@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+   background-image: url('varsh.jpg');
+    color: aliceblue;
+    background-color: black;
+    background-size: 1640px;
+    background-repeat: no-repeat;
+}
+.header{
+    background-color: transparent;
+    padding: 30px;
+    display: block;
+}
+
+.navbar{
+    display: inline;
+    margin-left: 60%;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 50px;
+    transition: 1s;
+}
+
+.logo:hover{
+    color: yellowgreen;
+    transition: ease-in 1s;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+    color:white;
+    transition: 1s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: yellowgreen;
+}
+
+.home{
+    margin: 150px;
+    display: block;
+    align-items: center;
+}
+
+.home-content {
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: yellowgreen;
+}
+
+.home-content p{
+    font-size: 15px;
+    margin-top: 30px;margin-bottom: 30px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.btn-box a:nth-child(2){
+    background-color:transparent;
+    color: yellowgreen;
+}
+
+.btn-box a:nth-child(2):hover{
+    color: #00004b;
+}
+
+.btn-box a:nth-child(1){
+    background-color:transparent;
+    color: yellowgreen;
+}
+
+.btn-box a:nth-child(1):hover{
+    color: #00004b;
+}
+
+
+.btn-box a::before {
+    content: ' ';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background: yellowgreen;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+} 
+
+.home-pic{
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.home-pic a{
+    position: relative;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid greenyellow;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 30px;
+    color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-pic a:hover{
+    color: #00004b;
+}
+
+.home-pic a::before{
+    content: ' ';
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background: yellowgreen;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-pic a:hover::before{
+    width: 100%;
+}
+

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+   background-image: url('varsh.jpg');
+    color: aliceblue;
+    background-color: black;
+    background-size: 1640px;
+    background-repeat: no-repeat;
+}
+.header{
+    background-color: transparent;
+    padding: 30px;
+    display: block;
+}
+
+.navbar{
+    display: inline;
+    margin-left: 60%;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 50px;
+    transition: 1s;
+}
+
+.logo:hover{
+    color: yellowgreen;
+    transition: ease-in 1s;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+    color:white;
+    transition: 1s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: yellowgreen;
+}
+
+div{
+    margin: 50px;
+    margin-right: 700px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+p{
+    font-size: 19px;
+    margin-right: 50px;
+    opacity: 50%;
+    transition: .5s;
+}
+p:hover{
+    opacity: 100%;
+    transition: .5s;
+}
