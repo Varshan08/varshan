@@ -53,3 +53,7 @@ body{
 .navbar a.active{
     color: yellowgreen;
 }
+h1{
+    margin: auto;
+    font-size: 50;
+}
